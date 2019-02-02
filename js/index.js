@@ -73,3 +73,8 @@ window.addEventListener("resize", () => {
 img1.addEventListener('drag', () => {
     console.log("This is a drag")
 });
+
+// Add Wheel Event
+textSelect.addEventListener('wheel', () => {
+    console.log("text select with a wheel");
+});
