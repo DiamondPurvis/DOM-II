@@ -17,3 +17,9 @@ navigationHeader[0].addEventListener('mouseover', e => {
 navigationHeader[0].addEventListener('mouseout', e => {
     event.target.style.color = "black";
 });
+
+// // Add Scroll Event 
+window.addEventListener('scroll', e => {
+    alert(`Crazy things will happen if you click the buttons or press a key...`);
+    event.stopPropagation();
+});
