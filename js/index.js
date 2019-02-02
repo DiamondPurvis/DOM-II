@@ -13,3 +13,7 @@ navigationHeader[0].addEventListener('mouseover', e => {
     event.target.style.color = "magenta";
     event.stopPropagation();
 });
+// Change color to black with mouseout Event
+navigationHeader[0].addEventListener('mouseout', e => {
+    event.target.style.color = "black";
+});
