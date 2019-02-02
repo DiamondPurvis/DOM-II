@@ -86,3 +86,16 @@ nav.forEach(item => {
     });
   });
 // 
+
+// Attempt to add animation
+navigationHeader[0].addEventListener('click', e => {
+    TweenLite.to(navigationHeader, 2, {left:"542px", backgroundColor:"black", borderBottomColor:"#90e500", color:"white"});
+})
+
+// Attempt at animation using javascript animator from gsap
+button.addEventListener('dblclick', () => {
+    button.textContent = 'It is a button';
+    TweenMax.to(".button", 1, {
+        rotation:180,
+    })
+})
