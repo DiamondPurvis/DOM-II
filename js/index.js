@@ -66,3 +66,8 @@ window.addEventListener('keydown', function(e) {
 window.addEventListener("resize", () => {
     alert("You resixed, you are cool")
 });
+
+// Add Drag Event
+img1.addEventListener('drag', () => {
+    console.log("This is a drag")
+});
