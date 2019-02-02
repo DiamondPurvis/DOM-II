@@ -24,3 +24,14 @@ window.addEventListener('scroll', e => {
     alert(`Crazy things will happen if you click the buttons or press a key...`);
     event.stopPropagation();
 });
+
+// Add Keypress Event 
+
+body[0].addEventListener('keydown', e => {
+    event.target.style.color = 'white';
+    event.target.style.backgroundColor = 'violet';
+})
+body[0].addEventListener('keyup', e => {
+    event.target.style.backgroundColor = 'yellow';
+})
+
