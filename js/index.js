@@ -78,3 +78,11 @@ img1.addEventListener('drag', () => {
 textSelect.addEventListener('wheel', () => {
     console.log("text select with a wheel");
 });
+
+// Add PreventDefault Event
+nav.forEach(item => {
+    item.addEventListener("click", e => {
+      e.preventDefault();
+    });
+  });
+// 
