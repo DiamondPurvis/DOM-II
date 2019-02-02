@@ -1,6 +1,7 @@
 // Your code goes here
 const navigationHeader = document.getElementsByClassName('logo-heading');
 const body = document.getElementsByTagName('body')
+const buttons = document.getElementsByClassName('btn');
 // setTimeout();
 
 function hello() {
