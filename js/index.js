@@ -35,3 +35,15 @@ body[0].addEventListener('keyup', e => {
     event.target.style.backgroundColor = 'yellow';
 })
 
+// Add Click Event 
+buttons[0].addEventListener('click', e => {
+    alert('Whoa there buddy.')
+})
+
+buttons[1].addEventListener('click', e => {
+    alert(`You're going too far.`)
+})
+
+buttons[2].addEventListener('click', e => {
+    alert(`You just dont quit huh?`)
+})
