@@ -3,6 +3,8 @@ const navigationHeader = document.getElementsByClassName('logo-heading');
 const body = document.getElementsByTagName('body')
 const buttons = document.getElementsByClassName('btn');
 const img1 = document.querySelector('img');
+const textSelect = document.querySelector('.text-content p');
+
 // setTimeout();
 
 function hello() {
