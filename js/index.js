@@ -47,3 +47,8 @@ buttons[1].addEventListener('click', e => {
 buttons[2].addEventListener('click', e => {
     alert(`You just dont quit huh?`)
 })
+
+// Add Contextmenu Event
+window.addEventListener('contextmenu', function(e) {
+    alert('That is a right click. Do it again.');
+});
