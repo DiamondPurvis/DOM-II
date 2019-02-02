@@ -52,3 +52,11 @@ buttons[2].addEventListener('click', e => {
 window.addEventListener('contextmenu', function(e) {
     alert('That is a right click. Do it again.');
 });
+
+// Add Keydown Event
+window.addEventListener('keydown', function(e) {
+    let keyName = e.key;
+    if (e.key != 'Control'){
+        alert('This key was used: ' + keyName);
+    }
+});
