@@ -60,3 +60,8 @@ window.addEventListener('keydown', function(e) {
         alert('This key was used: ' + keyName);
     }
 });
+
+//Add Resize Event
+window.addEventListener("resize", () => {
+    alert("You resixed, you are cool")
+});
