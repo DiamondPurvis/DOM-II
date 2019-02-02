@@ -1,4 +1,6 @@
 // Your code goes here
+const navigationHeader = document.getElementsByClassName('logo-heading');
+const body = document.getElementsByTagName('body')
 // setTimeout();
 
 function hello() {
